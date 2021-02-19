@@ -1,0 +1,54 @@
+.favu{
+    border: 2px solid black;
+    border-color: black;
+    /* background-color:burlywood; */
+    padding: 8px;
+    width: 30em;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+#sed{
+    box-sizing: border-box;
+    padding-left:37%;
+    font-size: 30px;
+    color: black;
+   
+}
+
+.nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 10px;
+}
+.nav{
+    float: right;
+    margin-right: 55px;
+}
+
+.nav a:hover{
+    background-color:white;
+    color: black;
+}
+
+
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid white;
+  padding: 8px;
+  margin: 10px;
+}
+
+
+h2{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 31%;
+    padding-top: 10%;
+}
+
+#button{
+    margin-left: 20px;
+}

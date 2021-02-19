@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body background="./images/top-line-management-login-background-1.jpg">
+  
+    <form action="main.html" onsubmit="return validation();">
+    <div class="favu">
+      
+        <p id="sed">LOGIN</p>
+        <br>
+        
+          <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="username" aria-describedby="username" required >
+          <div id="username" class="form-text"> </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="pass"  required >
+        </div> 
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+     <script src="login.js"></script>
+</body>
+</html>
